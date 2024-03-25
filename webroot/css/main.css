@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Bison';
+    src: url('../webroot/font/Bison.ttf'); 
+}
+
+body{
+	font-family: 'Bison'; 
+}
+
+#section{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	border-right : 2px solid black; 
+	border-left : 2px solid black;
+	border-bottom : 2px solid black;
+	margin-bottom: 50px;
+	/*height:  500px;*/
+
+}
+
+#intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-size: 25px;
+    border : 2px solid black; 
+}
+
+/*.encart {
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: -10px 10px #DF80AC;
+}*/
+
+p{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	margin: 15px;
+}
+
+#white {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figure .encart{
+	width: 75%;
+}
+
+#text{
+	width: 75%;
+	border: 2px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: -10px 10px #DF80AC;
+}
+
+#pink img{
+
+}
+
+#author{
+	text-align: right;
+}
+
+#character{
+	border: 2px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: -10px 10px #DF80AC;
+}
+
+#pink{
+	background: #DF80AC;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pink p{
+	grid-row: 3;
+	font-size: 50px;
+}
