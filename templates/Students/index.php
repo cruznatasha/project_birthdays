@@ -1,4 +1,8 @@
-<?php // templates/Students/index.php ?>
+<?php // templates/Students/index.php 
+
+//je n'ai pas eu le temps de mettre la partie js pour afficher les anniversaires un à un ni la barre indiquant le nombre d'anniversaire (juste le compteur)
+
+?>
 
 <?php 
     $today = (new \DateTime())->format('m-d');
@@ -9,6 +13,8 @@
         if ($birthday == $today):
         	$compteur++;
 ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
